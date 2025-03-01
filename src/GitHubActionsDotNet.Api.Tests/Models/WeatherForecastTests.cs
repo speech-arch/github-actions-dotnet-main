@@ -9,7 +9,7 @@ public class WeatherForecastTests
     {
         var weatherForecast = new WeatherForecast
         {
-            TemperatureC = 0
+            TemperatureC = 0    
         };
 
         weatherForecast.TemperatureF.Should().Be(32);
